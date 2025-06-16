@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Personal Portfolio HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Devicon Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top shadow py-lg-0 px-4 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="text-primary fw-bold m-0">Portfolio</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#skill" class="nav-item nav-link">Skills</a>
+                
+            </div>
+            <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
+                <h1 class="text-primary fw-bold m-0">Portfolio</h1>
+            </a>
+            <div class="navbar-nav me-auto py-0">
+                <a href="#project" class="nav-item nav-link">Projects</a>
+                
+                
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+                <button class="btn btn-sm btn-outline-secondary ms-2 theme-toggle" id="themeToggle"><i class="bi bi-moon-fill"></i></button>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-light my-6 mt-0" id="home">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 py-6 pb-0 pt-lg-0">
+                    <h3 class="text-primary mb-3">I'm</h3>
+                    <h1 class="display-3 mb-3">Anurag Bodkhe</h1>
+                    <h2 class="typed-text-output d-inline"></h2>
+                    <div class="typed-text d-none">Software Engineer, Software Developer, Web Designer, Web Developer, Full Stack Developer</div>
+                    <div class="d-flex align-items-center pt-5">
+                        <a href="https://drive.google.com/file/d/1cH0a5NK-T4OsW19zS-kcRz6anie0khtC/view?usp=sharing" class="btn btn-primary py-3 px-4 me-5" target="_blank" rel="noopener">Download Resume</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid hero-img" src="img/hero iamge.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <!-- 16:9 aspect ratio -->
+                    <div class="ratio ratio-16x9">
+                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
+                            allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- About Start -->
+    <div class="container-xxl py-6" id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="d-flex align-items-center mb-5">
+                        <div class="years flex-shrink-0 text-center me-4">
+                            <h1 class="display-1 mb-0">3</h1>
+                            <h5 class="mb-0">Months</h5>
+                        </div>
+                        <h3 class="lh-base mb-0">of working experience as a Full Stack Developer &amp; Software Developer</h3>
+                    </div>
+                    <p class="mb-4">I’m an aspiring full-stack developer with 3+ months of hands-on experience working on real-world web applications. From building responsive frontends to integrating secure backend services, I focus on creating user-friendly and scalable digital solutions using modern tools and frameworks.</p>
+                    <ul class="list-unstyled mb-5">
+                        <li class="mb-2"><i class="far fa-check-circle text-primary me-3"></i>Built Secure Auth &amp; Real-time Features</li>
+                        <li class="mb-2"><i class="far fa-check-circle text-primary me-3"></i>Developed Scalable Web Apps using React &amp; Node</li>
+                        <li class="mb-2"><i class="far fa-check-circle text-primary me-3"></i>Integrated Firebase, MongoDB &amp; Cloud Services</li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-3 mb-4">
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="img/about 0.png" alt="">
+                        </div>
+                        <div class="col-sm-6">
+                            <img class="img-fluid rounded" src="img/about 00.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Expertise Start -->
+    <div class="container-xxl py-6 pb-5" id="skill">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-5">Skills & Experience</h1>
+                    <p class="mb-4">A curious and hands-on full stack developer with experience in real-world web application development. Passionate about crafting secure backends, interactive UIs, and scalable systems using modern frameworks and cloud services.</p>
+                    <h3 class="mb-4">My Skills</h3>
+                    <!-- Comprehensive badge list -->
+                    <div class="row gy-2">
+                        <div class="col-12">
+                            <h5 class="mb-2">Languages &amp; Fundamentals</h5>
+                            <div class="d-flex flex-wrap">
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-java-plain colored me-1"></i>Java</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-javascript-plain colored me-1"></i>JavaScript</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-typescript-plain colored me-1"></i>TypeScript</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-python-plain colored me-1"></i>Python</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-cplusplus-plain colored me-1"></i>C++</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-c-plain colored me-1"></i>C</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-mysql-plain colored me-1"></i>SQL</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-mongodb-plain colored me-1"></i>NoSQL</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-solidity-plain colored me-1"></i>Solidity</span>
+                                <span class="badge bg-light text-dark m-1">DS &amp; Algorithms</span>
+                                <span class="badge bg-light text-dark m-1">DBMS</span>
+                                <span class="badge bg-light text-dark m-1">OS</span>
+                                <span class="badge bg-light text-dark m-1">CN</span>
+                                <span class="badge bg-light text-dark m-1">OOPs</span>
+                            </div>
+
+                            <h5 class="mt-4 mb-2">Databases</h5>
+                            <div class="d-flex flex-wrap">
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-mysql-plain colored me-1"></i>MySQL</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-mongodb-plain colored me-1"></i>MongoDB</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-postgresql-plain colored me-1"></i>PostgreSQL</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-sqlite-plain colored me-1"></i>SQLite</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-firebase-plain colored me-1"></i>Firebase</span>
+                                <span class="badge bg-light text-dark m-1">Supabase</span>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <h5 class="mb-2">Frameworks &amp; Tools</h5>
+                            <div class="d-flex flex-wrap">
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-spring-plain colored me-1"></i>Spring Boot</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-nodejs-plain colored me-1"></i>Node.js</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-express-original colored me-1"></i>Express.js</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-dotnetcore-plain colored me-1"></i>ASP.NET</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-react-original colored me-1"></i>React.js</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-redux-original colored me-1"></i>Redux</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-angularjs-plain colored me-1"></i>Angular</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-tailwindcss-plain colored me-1"></i>Tailwind CSS</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-bootstrap-plain colored me-1"></i>Bootstrap</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-git-plain colored me-1"></i>Git</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-github-original colored me-1"></i>GitHub</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-gitlab-plain colored me-1"></i>GitLab CI/CD</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-docker-plain colored me-1"></i>Docker</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-amazonwebservices-plain colored me-1"></i>AWS</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-tensorflow-original colored me-1"></i>TensorFlow</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-socketio-original colored me-1"></i>Socket.io</span>
+                                <span class="badge bg-light text-dark m-1">React Query</span>
+                            </div>
+
+                            <h5 class="mt-4 mb-2">Cloud &amp; DevOps</h5>
+                            <div class="d-flex flex-wrap">
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-firebase-plain colored me-1"></i>Firebase Auth</span>
+                                <span class="badge bg-light text-dark m-1">Firebase Realtime DB</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-mongodb-plain colored me-1"></i>MongoDB Atlas</span>
+                                <span class="badge bg-light text-dark m-1">EmailJS</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-docker-plain colored me-1"></i>Docker</span>
+                                <span class="badge bg-light text-dark m-1"><i class="devicon-github-original colored me-1"></i>GitHub Actions</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row d-none">
+                        <div class="col-12">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold"><i class="devicon-java-plain colored me-2"></i>Java</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold"><i class="devicon-javascript-plain colored me-2"></i>JavaScript</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold"><i class="devicon-python-plain colored me-2"></i>Python</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold"><i class="devicon-react-original colored me-2"></i>React.js</h6>
+                                    <h6 class="font-weight-bold">90%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold"><i class="devicon-nodejs-plain colored me-2"></i>Node.js</h6>
+                                    <h6 class="font-weight-bold">85%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold"><i class="devicon-spring-plain colored me-2"></i>Spring Boot</h6>
+                                    <h6 class="font-weight-bold">80%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <ul class="nav nav-pills rounded border border-2 border-primary mb-5">
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5 active" data-bs-toggle="pill" href="#tab-1">Experience</button>
+                        </li>
+                        <li class="nav-item w-50">
+                            <button class="nav-link w-100 py-3 fs-5" data-bs-toggle="pill" href="#tab-2">Education</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-12">
+                                    <h5><img src="img/Ailexity logo.png" class="exp-logo me-2" alt="Ailexity Logo">Software Development Intern – Ailexity Software</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">Remote/Hybrid | June 2025 – September 2025</p>
+                                    <p class="mb-0">12-week internship focusing on real-world software development, scalable architecture, AI integrations, and agile collaboration. Contributed to UI/UX enhancements, REST API development, bug fixing, and DevOps pipelines while gaining experience with modern tools and collaborative workflows.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row gy-5 gx-4">
+                                <div class="col-12">
+                                    <h5><img src="img/college logo.png" class="exp-logo me-2" alt="College Logo">MIT ADT University, Pune</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">B.Tech Information Technology | 2023 - 2027</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Expertise End -->
+
+
+
+    <!-- Service section removed
+<!-- <div class="container-fluid bg-light my-5 py-6" id="service">
+        <div class="container">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">My Services</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <a class="btn btn-primary py-3 px-5" href="">Hire Me</a>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-crop-alt fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Creative Design</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
+                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code-branch fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Graphic Design</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
+                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">Web Design</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
+                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item d-flex flex-column flex-sm-row bg-white rounded h-100 p-4 p-lg-5">
+                        <div class="bg-icon flex-shrink-0 mb-3">
+                            <i class="fa fa-laptop-code fa-2x text-dark"></i>
+                        </div>
+                        <div class="ms-sm-4">
+                            <h4 class="mb-3">UI/UX Design</h4>
+                            <h6 class="mb-3">Start from <span class="text-primary">$199</span></h6>
+                            <span>Stet lorem dolor diam amet vero eos. No stet est diam amet diam ipsum. Clita dolor duo clita sit sed sit dolor eos.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- Projects Start -->
+    <div class="container-xxl py-6 pt-5" id="project">
+        <div class="container">
+            <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">My Projects</h1>
+                </div>
+                <div class="col-lg-6 text-lg-end">
+                    <ul class="list-inline mx-n3 mb-0 d-none" id="portfolio-flters">
+                        <li class="mx-3 active" data-filter="*">All Projects</li>
+                        <li class="mx-3" data-filter=".first">UI/UX Design</li>
+                        <li class="mx-3" data-filter=".second">Graphic Design</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row g-4 portfolio-container wow fadeInUp d-none" data-wow-delay="0.1s">
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-1.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-1.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-2.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-3.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-4.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item first">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-5.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 portfolio-item second">
+                    <div class="portfolio-img rounded overflow-hidden">
+                        <img class="img-fluid" src="img/project-6.jpg" alt="">
+                        <div class="portfolio-btn">
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href="img/project-6.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                            <a class="btn btn-lg-square btn-outline-secondary border-2 mx-1" href=""><i class="fa fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modern Projects Grid Start -->
+            <div id="projects-grid" class="row g-4 wow fadeInUp" data-wow-delay="0.15s">
+                <!-- Project 1 -->
+                <div class="col-12">
+                    <div class="project-card h-100">
+                        <div class="project-img">
+                            <!-- EduStake carousel -->
+                            <div id="carouselEduStake" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/162672.png" class="d-block w-100" alt="EduStake screenshot 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/156255.png" class="d-block w-100" alt="EduStake screenshot 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/16262.png" class="d-block w-100" alt="EduStake screenshot 3">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselEduStake" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselEduStake" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <h4 class="fw-bold mb-1">EduStake</h4>
+                            <p class="text-muted mb-2">EduStake – College Resource Sharing Platform</p>
+                                <p class="small text-muted">EduStake is a modern, responsive platform designed for college students to share educational resources, collaborate in study groups, and communicate with peers. Built with HTML, CSS, and JavaScript, it leverages Firebase for real-time data management and authentication.</p>
+                            <a href="https://github.com/AnuragBodkhe/EduStake" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">View Project</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-12">
+                    <div class="project-card h-100">
+                        <div class="project-img">
+                            <!-- SHOPLANE carousel -->
+                            <div id="carouselShoplane" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/ecom1.png" class="d-block w-100" alt="SHOPLANE screenshot 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/ecom2.png" class="d-block w-100" alt="SHOPLANE screenshot 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/ecom3.png" class="d-block w-100" alt="SHOPLANE screenshot 3">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselShoplane" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselShoplane" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <h4 class="fw-bold mb-1">SHOPLANE</h4>
+                            <p class="text-muted mb-2">ShopLane – E-commerce Web Application</p>
+                                <p class="small text-muted">ShopLane is an e-commerce web application providing a seamless shopping experience with product listings, detailed pages, cart management, and order processing. Built with modern web technologies, it offers a responsive interface for browsing, adding items to the cart, and completing purchases. The repository includes both front-end and (where applicable) back-end code along with assets and configuration for deployment.</p>
+                            <a href="https://github.com/AnuragBodkhe/ShopLane" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">View Project</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-12">
+                    <div class="project-card h-100">
+                        <div class="project-img">
+                            <!-- Coffee Shop carousel -->
+                            <div id="carouselCoffee" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img src="img/coffee1.png" class="d-block w-100" alt="Coffee image 1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/coffee2.png" class="d-block w-100" alt="Coffee image 2">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/coffee3.png" class="d-block w-100" alt="Coffee image 3">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/coffee4.png" class="d-block w-100" alt="Coffee image 4">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/coffee5.png" class="d-block w-100" alt="Coffee image 5">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="img/coffee6.png" class="d-block w-100" alt="Coffee image 6">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselCoffee" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselCoffee" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <h4 class="fw-bold mb-1">Coffee Shop Landing Page</h4>
+                            <p class="text-muted mb-2">Coffee Shop Website – Full-stack Application</p>
+                            <p class="small text-muted">Coffee Shop Website is a full-stack web application built primarily with PHP, HTML, CSS, and a touch of JavaScript. It provides a complete online platform for a coffee shop with dynamic content, interactive design, and essential e-commerce functionalities.</p>
+                            <a href="https://github.com/AnuragBodkhe/Coffee-Shop-Website" class="btn btn-outline-primary btn-sm" target="_blank" rel="noopener">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+
+            <!-- Modern Projects Grid End -->
+            <!-- Projects End -->
+
+
+    <!-- Team section removed --> 
+
+
+    <!-- Testimonial section removed --> 
+
+
+    <!-- Contact Start -->
+    <div class="container-xxl pb-5" id="contact">
+        <div class="container py-5">
+            <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="col-lg-6">
+                    <h1 class="display-5 mb-0">Let's Work Together</h1>
+                </div>
+                
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <p class="mb-2">My Address:</p>
+                    <h3 class="fw-bold">MIT ADT Campus, Pune, Maharashtra 412201, India</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Call me:</p>
+                    <h3 class="fw-bold">+91 9022977272</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Mail me:</p>
+                    <h3 class="fw-bold">bodkheanurag235@gmail.com</h3>
+                    <hr class="w-100">
+                    <p class="mb-2">Follow me:</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-square btn-primary me-2" href="https://github.com/AnuragBodkhe"><i class="fab fa-github"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://www.facebook.com/bodkheanurag"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://www.instagram.com/bodkheanurag/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square btn-primary me-2" href="https://www.linkedin.com/in/anurag-bodkhe-087758292/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <p class="mb-4">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Fill out the form, and I’ll get back to you as soon as possible.</p>
+                    <form id="contact-form">
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Map Start -->
+    <div class="container-xxl pt-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container-xxl pt-5 px-0">
+            <div class="bg-dark">
+                <iframe
+                src="https://www.google.com/maps?q=MIT%20ADT%20University%20Pune&output=embed"
+                frameborder="0" style="width: 100%; height: 450px; border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- Map End -->
+
+
+    
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="js/email.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
