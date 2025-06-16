@@ -1,0 +1,41 @@
+/* Dark/Light Theme Overrides */
+
+body.dark-theme {
+    background-color: #f2f2f2 !important; /* light grey background */
+    color: #121212 !important; /* dark text for readability */
+}
+
+body.dark-theme .bg-light,
+body.dark-theme .container-fluid.bg-light,
+body.dark-theme .container-xxl,
+body.dark-theme .bg-white {
+    background-color: #eaeaea !important; /* slightly darker grey sections */
+}
+
+body.dark-theme .navbar {
+    background-color: #dcdcdc !important;
+}
+
+body.dark-theme .navbar .nav-link {
+    color: #121212 !important;
+}
+
+body.dark-theme .navbar .nav-link.active,
+body.dark-theme .navbar .nav-link:hover {
+    color: var(--secondary) !important;
+}
+
+body.dark-theme #projects-grid .project-card,
+body.dark-theme #projects-grid .project-card .p-3 {
+    background-color: #f7f7f7 !important;
+    border-color: #555 !important;
+}
+
+body.dark-theme .project-card {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* Theme toggle button icon disables pointer events for icon itself */
+.theme-toggle i {
+    pointer-events: none;
+}
